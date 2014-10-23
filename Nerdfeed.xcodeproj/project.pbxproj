@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E5D867219F984BA005B9A75 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5D867119F984BA005B9A75 /* WebViewController.swift */; };
 		5ED36EE119F9814F005495D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED36EE019F9814F005495D3 /* AppDelegate.swift */; };
-		5ED36EE319F9814F005495D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED36EE219F9814F005495D3 /* ViewController.swift */; };
 		5ED36EE619F9814F005495D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ED36EE419F9814F005495D3 /* Main.storyboard */; };
 		5ED36EE819F9814F005495D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ED36EE719F9814F005495D3 /* Images.xcassets */; };
 		5ED36EEB19F9814F005495D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ED36EE919F9814F005495D3 /* LaunchScreen.xib */; };
 		5ED36EF719F9814F005495D3 /* NerdfeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED36EF619F9814F005495D3 /* NerdfeedTests.swift */; };
+		5ED36F0119F98164005495D3 /* CoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED36F0019F98164005495D3 /* CoursesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +27,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E5D867119F984BA005B9A75 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		5ED36EDB19F9814F005495D3 /* Nerdfeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nerdfeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ED36EDF19F9814F005495D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5ED36EE019F9814F005495D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5ED36EE219F9814F005495D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5ED36EE519F9814F005495D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5ED36EE719F9814F005495D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5ED36EEA19F9814F005495D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5ED36EF019F9814F005495D3 /* NerdfeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NerdfeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ED36EF519F9814F005495D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5ED36EF619F9814F005495D3 /* NerdfeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NerdfeedTests.swift; sourceTree = "<group>"; };
+		5ED36F0019F98164005495D3 /* CoursesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoursesViewController.swift; path = ../CoursesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		5ED36ED219F9814F005495D3 = {
 			isa = PBXGroup;
 			children = (
+				5E5D867119F984BA005B9A75 /* WebViewController.swift */,
 				5ED36EDD19F9814F005495D3 /* Nerdfeed */,
 				5ED36EF319F9814F005495D3 /* NerdfeedTests */,
 				5ED36EDC19F9814F005495D3 /* Products */,
@@ -77,8 +80,8 @@
 		5ED36EDD19F9814F005495D3 /* Nerdfeed */ = {
 			isa = PBXGroup;
 			children = (
+				5ED36F0019F98164005495D3 /* CoursesViewController.swift */,
 				5ED36EE019F9814F005495D3 /* AppDelegate.swift */,
-				5ED36EE219F9814F005495D3 /* ViewController.swift */,
 				5ED36EE419F9814F005495D3 /* Main.storyboard */,
 				5ED36EE719F9814F005495D3 /* Images.xcassets */,
 				5ED36EE919F9814F005495D3 /* LaunchScreen.xib */,
@@ -212,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5ED36EE319F9814F005495D3 /* ViewController.swift in Sources */,
 				5ED36EE119F9814F005495D3 /* AppDelegate.swift in Sources */,
+				5E5D867219F984BA005B9A75 /* WebViewController.swift in Sources */,
+				5ED36F0119F98164005495D3 /* CoursesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +411,7 @@
 				5ED36EFC19F9814F005495D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5ED36EFD19F9814F005495D3 /* Build configuration list for PBXNativeTarget "NerdfeedTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				5ED36EFF19F9814F005495D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
